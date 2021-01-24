@@ -15,7 +15,7 @@ export namespace Components {
     interface AppRoot {
     }
     interface SlotAvatar {
-        "color": string;
+        "avatarColor": string;
     }
     interface SlotComponent {
     }
@@ -68,7 +68,7 @@ declare namespace LocalJSX {
     interface AppRoot {
     }
     interface SlotAvatar {
-        "color"?: string;
+        "avatarColor"?: string;
     }
     interface SlotComponent {
     }

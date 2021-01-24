@@ -7,11 +7,10 @@ import { Prop } from '@stencil/core';
   shadow: true,
 })
 export class SlotAvatar {
-  @Prop() color: string;
-
+  @Prop({ attribute: 'color' }) avatarColor: string;
   render() {
     return (
-      <Host style={{backgroundColor: this.color}}>
+      <Host style={{backgroundColor: this.avatarColor}}>
         <slot></slot>
       </Host>
     );
