@@ -1,0 +1,25 @@
+:host {
+  display: block;
+}
+
+.slot-machine {
+  width: fit-content;
+  display: flex;
+  height:300px;
+  overflow: hidden;
+  border-bottom: 6px solid black;
+}
+
+.slot-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top: 6px solid black;
+  border-bottom: 6px solid black;
+  border-left: 6px solid black;
+  height: 400px;
+}
+
+.slot-col:last-child {
+  border-right: 6px solid black;
+}
